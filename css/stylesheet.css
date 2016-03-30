@@ -1,0 +1,427 @@
+/*GLOBAL STYLES*/
+
+/*
+primary color
+#003b6f
+secondary color
+#4848d1
+third color
+#33cccc*/
+
+body{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Dosis', sans-serif;
+  background-color: #4848d1;
+}
+
+h1, h2, h3{
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: #4848d1;
+}
+
+ul{
+  list-style: none;
+}
+
+/*HEADER STYLES*/
+header{
+  height: 120px;
+  background-color: #003b6f;
+
+}
+
+#logo{
+  width: 300px;
+  position: absolute;
+  top: 35px;
+  left: 100px;
+}
+
+#logo h1:hover{
+  color: #33cccc;
+}
+
+#menu{
+  position: absolute;
+  top: 35px;
+  right: 100px;
+}
+
+#menu ul{
+  display: inline-block;
+}
+
+#menu li{
+  display: block;
+  float: left;
+}
+
+#menu li:after{
+  content: " | ";
+  padding: 0px 10px;
+}
+
+#menu a:hover{
+  color: #33cccc;
+}
+
+/*Banner Styles*/
+
+#banner-home{
+  background-color: #dddddd;
+  height: 300px;
+  background-size: cover;
+  background-image: url(../img/doctor-who.png);
+}
+
+#banner-home h1{
+  text-align: center;
+  padding: 150px 0px;
+  font-family: 'Montserrat', sans-serif;
+  color: #0099cc;
+}
+
+/*BLOG STYLES*/
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.blog-1{
+  width: 384px;
+  float: left;
+  margin-right: 10px;
+}
+
+.blog-2{
+  width: 384px;
+  float: left;
+  margin-right: 10px;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  padding: 0px 8px;
+}
+
+.blog-3{
+  width: 384px;
+  float: left;
+}
+
+.blog-image{
+  height: 285px;
+  width: 380px;
+  margin: 0px 2px;
+}
+
+.button{
+  padding: 15px 35px;
+  background-color: #003b6f;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 10px 110px 70px;
+}
+
+.button:hover{
+  background-color: #24248f;
+  color: #4848d1;
+}
+
+#blog h2{
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 2em;
+}
+
+#blog p{
+  text-align: justify;
+}
+
+
+/*About Styles*/
+
+#about{
+  border: 2px dotted black;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#about h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+.align-left{
+  margin-right: 24px;
+  margin-top: 10px;
+  float: left;
+  width: 384px;
+}
+
+.aboutbutton{
+  padding: 15px 35px;
+  background-color: #003b6f;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0px 270px
+}
+
+.aboutbutton:hover{
+  background-color: #24248f;
+  color: #4848d1;
+}
+
+figure{
+  margin: 0px;
+  padding: 0px;
+}
+
+.selfie{
+  Height: 350px;
+  width: 350px;
+}
+
+/*Footer Styles*/
+footer{
+  margin-top: 20px;
+  clear:both;
+}
+
+#copyright{
+  padding: 30px; 0px;
+  background-color: #003b6f;
+  display: block;
+  color: #4848d1
+}
+
+#copyright p{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#copyright a{
+  color: #4848d1;
+}
+
+.social{
+  text-align: center;
+}
+
+.fa{
+  height: 28px;
+  width: 28px;
+  background-color: #4848d1;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid #ffffff;
+  border-radius: 100%;
+  margin: 15px;
+  font-size: 28px !important;
+}
+
+/*=====ABOUT PAGE STLYES===*/
+
+/*VIDEO STYLES*/
+
+#video{
+  width: 100%;
+  position: relative;
+  padding-bottom: 56%;
+  padding-top: 30px;
+  height: 0px;
+  overflow: hidden;
+}
+
+#video iframe{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container{
+  width: 98%;
+  margin: 0px auto;
+}
+
+
+/*SECTION STYLES*/
+
+#about-page{
+  padding: 10px;
+}
+
+#about-page article{
+  width: 600px;
+  float: left;
+  padding: 10px;
+  margin: 0px 60px;
+}
+
+#about-page h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+#about-page p{
+  line-height: 1.2em;
+  text-align: justify;
+}
+
+#about-page li{
+  padding: 2px;
+}
+
+.align-right{
+  margin-left: 24px;
+  margin-top: 85px;
+  float: left;
+  width: 384px;
+}
+
+/*=====CONTACT PAGE STYLES=====*/
+
+.map{
+  float: left;
+  margin: 20px 100px;
+}
+
+.info{
+  float:left;
+  margin-top: 130px;
+}
+
+#contact h3{
+  font-size: 3em;
+}
+
+#contact ul{
+  padding-left: 10px;
+}
+
+#contact li{
+  padding: 2px 0px;
+}
+
+/*=====BLOG PAGE STYLES=====*/
+
+#blog-page{
+  margin: 50px 200px;
+}
+
+#blog-page h2{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 10px;
+}
+
+#blog-page p{
+  text-align: justify;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.blogstyles{
+  border: 2px dotted black;
+  padding: 20px;
+  border-radius: 8px;
+  height: 1490px;
+  width: 822px;
+}
+}
+
+#blog-page img{
+  width: 822px;
+  height: 822px;
+}
+
+.blogpage-image{
+  width:822px;
+  height:822px;
+}
+
+.blog-button{
+  padding: 15px 35px;
+  background-color: #003b6f;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 40px 262px;
+}
+
+.blog-button:hover{
+  background-color: #24248f;
+  color: #4848d1;
+}
+
+
+/*=====DOCTOR PAGE=====*/
+.first, .second{
+  width: 383px;
+  float: left;
+  margin: 10px 6px;
+  border: 1px black solid;
+  padding: 0px 2px;
+}
+
+.third{
+  width: 383px;
+  float: left;
+  border: 1px black solid;
+  margin: 10px 0px;
+  padding: 0px 5px;
+}
+
+.text{
+  color: black;
+}
+
+.h1center{
+  text-align: center;
+  margin: 30px 0px;
+}
+
+#doctorinfo h2{
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 2em;
+}
+
+#doctorinfo p{
+  text-align: justify;
+}
+
+.infobutton{
+  padding: 15px 35px;
+  background-color: #003b6f;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 40px 476px;
+}
+
+.infobutton:hover{
+  background-color: #24248f;
+  color: #4848d1;
+}
